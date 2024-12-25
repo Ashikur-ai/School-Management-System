@@ -6,7 +6,7 @@ const Topbar = () => {
   return (
     <div className='bg-themeBlue text-white py-3'>
       <div className="flex justify-between w-10/12 mx-auto">
-        <div className="flex gap-3">
+        <div className=" lg:flex gap-3 hidden">
           <p className='flex items-center gap-2'>
             <FaMap />
             <span>  1PO Box, Collins Street West, Australia </span> |
